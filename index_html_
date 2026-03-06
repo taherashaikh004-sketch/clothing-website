@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Fitness Gym</title>
+<style>
+body{
+font-family: Arial;
+margin:0;
+padding:0;
+}
+
+header{
+background:#111;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+nav{
+background:#333;
+padding:10px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:15px;
+text-decoration:none;
+font-size:18px;
+}
+
+section{
+padding:40px;
+text-align:center;
+}
+
+.hero{
+background:url('https://images.unsplash.com/photo-1554284126-aa88f22d8b74');
+background-size:cover;
+color:white;
+padding:100px 20px;
+}
+
+.services{
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+}
+
+.box{
+border:1px solid #ddd;
+padding:20px;
+width:250px;
+}
+
+footer{
+background:#111;
+color:white;
+padding:15px;
+text-align:center;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Power Fitness Gym</h1>
+<p>Transform Your Body Today</p>
+</header>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">About</a>
+<a href="#">Services</a>
+<a href="#">Contact</a>
+</nav>
+
+<section class="hero">
+<h1>Join The Best Gym In Your City</h1>
+<p>Build Strength • Lose Fat • Stay Fit</p>
+</section>
+
+<section>
+<h2>About Us</h2>
+<p>We provide professional fitness training and modern gym equipment to help you achieve your dream body.</p>
+</section>
+
+<section>
+<h2>Our Services</h2>
+
+<div class="services">
+
+<div class="box">
+<h3>Weight Training</h3>
+<p>Professional equipment for muscle building.</p>
+</div>
+
+<div class="box">
+<h3>Personal Trainer</h3>
+<p>Expert trainers to guide your workout.</p>
+</div>
+
+<div class="box">
+<h3>Cardio Training</h3>
+<p>Improve stamina and burn fat.</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+<h2>Contact Us</h2>
+<p>Phone: 9876543210</p>
+<p>Email: gym@email.com</p>
+</section>
+
+<footer>
+<p>© 2026 Power Fitness Gym</p>
+</footer>
+
+</body>
+</html>
